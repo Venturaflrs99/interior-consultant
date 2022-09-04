@@ -59,4 +59,32 @@
         border: 1px solid #fff;
     }
     /*************/
- 
+    /* INFO SECTION */
+    .info{
+        margin-top: 40px;
+        height: 240px;
+    }
+
+    .title{
+        font-family: var(--ff-2);
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .text{
+        font-family: var(--ff-3);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+        height: 85px;
+        padding-right: 37px;
+        margin-top: 25px;
+    }
+
+    .read-more{
+        display: inline-block;
+        margin: 25px 0;
+    }
+    /*************/
