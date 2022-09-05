@@ -61,8 +61,11 @@
     /*************/
     /* INFO SECTION */
     .info{
-        margin-top: 40px;
+        margin: 20px 0;
         height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .title{
@@ -85,6 +88,8 @@
 
     .read-more{
         display: inline-block;
-        margin: 25px 0;
+        /* margin: 25px 0; */
+        color: #fff;
+        text-decoration: none;
     }
     /*************/
