@@ -22,7 +22,7 @@ html {
 
 .main {
     max-width: 1200px;
-    height: 90%;
+    min-height: calc(99vh - 30px);
     /* centra con margin */
     margin-inline: auto;
     padding: 0 10px;
@@ -167,6 +167,7 @@ html {
     color: #A9A9A9;
     font-weight: 500;
     padding: 15px;
+    height: 30px;
     /* height: 10vh; */
 }
 /*************/
