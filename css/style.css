@@ -21,7 +21,7 @@ html {
 }
 
 .main {
-    max-width: 1200px;
+    max-width: 480px;
     min-height: calc(99vh - 30px);
     /* centra con margin */
     margin-inline: auto;
@@ -205,5 +205,66 @@ html {
     .footer{
         /* font-size: 10px; */
         width: 100%;
+    }
+}
+
+@media (min-width:768px){
+    .main{
+        max-width: 100%;
+        padding: 0 70px;
+        display: grid;
+        grid-template-rows: max-content auto;
+    }
+    .flex{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .info{
+        gap: 20px;
+    }
+    .text{
+        height: auto;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .title{
+        font-size: 48px;
+    }
+    .read-more{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1262px){
+    .text{
+        width: 500px;
+    }
+    .img{
+        max-width: 737px;
+    }
+    .designer{
+        width: 410px;
+        height: 189px;
+        bottom: -116px;
+        right: 35px;
+    }
+    .designer-img{
+        height: 50px;
+        width: 50px;
+    }
+    .name{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .position{
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 7px;
+    }
+    .design-title{
+        font-size: 24px;
+        line-height: 31px;
     }
 }
