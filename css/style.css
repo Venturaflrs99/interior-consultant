@@ -171,3 +171,39 @@ html {
     /* height: 10vh; */
 }
 /*************/
+
+/* Media Queries */
+
+@media (max-width: 330px){
+    .info{
+        height: auto;
+        gap: 20px;
+    }
+    .info-main{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .text{
+        padding-right: 0;
+        margin: 0;
+        font-size: 12px;
+        height: auto;
+    }
+    .design{
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+    }
+    .designer{
+        position: initial;
+        width: 100%;
+    }
+    .footer{
+        /* font-size: 10px; */
+        width: 100%;
+    }
+}
