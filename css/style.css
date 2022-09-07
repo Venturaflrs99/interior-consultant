@@ -21,7 +21,7 @@ html {
 }
 
 .main {
-    max-width: 480px;
+    max-width: 600px;
     min-height: calc(99vh - 30px);
     /* centra con margin */
     margin-inline: auto;
@@ -48,6 +48,11 @@ html {
 .icon {
     height: 30px;
     width: 30px;
+    cursor: pointer;
+}
+
+.icon-close{
+    display: none;
 }
 
 .button {
@@ -208,7 +213,13 @@ html {
     }
 }
 
-@media (min-width:768px){
+@media (max-width:450px){
+    .main{
+        max-width: 345px;
+    }
+}
+
+@media (min-width:820px){
     .main{
         max-width: 100%;
         padding: 0 70px;
@@ -234,6 +245,29 @@ html {
     }
     .read-more{
         font-size: 20px;
+    }
+    .icon{
+        display: none;
+    }
+    .nav-links{
+        display: block;
+        width: 40%;
+        
+    }
+    .links{
+        display: flex;
+        justify-content: space-between;
+    }
+    .item{
+        list-style: none;
+        font-size: 18px;
+        line-height: 22px;
+        cursor: pointer;
+    }
+    .item:first-child{
+        font-weight: 700;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 2px;
     }
 }
 
