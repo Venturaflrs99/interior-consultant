@@ -17,7 +17,8 @@
 body,
 html {
     height: 100vh;
-    background-color: var(--backgroun);;
+    background-color: var(--backgroun);
+    overflow: hidden;
 }
 
 .main {
@@ -227,9 +228,7 @@ html {
     text-align: center;
     color: #A9A9A9;
     font-weight: 500;
-    padding: 15px;
     height: 30px;
-    /* height: 10vh; */
 }
 /*************/
 
@@ -276,6 +275,9 @@ html {
 }
 
 @media (min-width:820px){
+    .btn-mobile{
+        display: none;
+    }
     .main{
         max-width: 100%;
         padding: 0 70px;
