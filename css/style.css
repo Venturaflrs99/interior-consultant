@@ -226,6 +226,8 @@ html {
     color: #A9A9A9;
     font-weight: 500;
     height: 30px;
+    margin-top: 100px;
+
 }
 
 .footer a{
@@ -280,9 +282,7 @@ html {
     .main{
         max-width: 345px;
     }
-    .footer{
-        margin-top: 100px;
-    }
+    
 }
 
 @media (min-width:820px){
