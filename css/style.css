@@ -18,7 +18,7 @@ body,
 html {
     height: 100vh;
     background-color: var(--backgroun);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .main {
@@ -280,6 +280,9 @@ html {
     .main{
         max-width: 345px;
     }
+    .footer{
+        margin-top: 100px;
+    }
 }
 
 @media (min-width:820px){
@@ -324,6 +327,8 @@ html {
         flex-direction: row;
         justify-content: space-between;
     }
+
+    
     
 }
 
@@ -356,5 +361,17 @@ html {
     .design-title{
         font-size: 24px;
         line-height: 31px;
+    }
+}
+
+@media (min-width:1440px){
+    .item a{
+        font-size: 25px;
+    }
+    .buttom{
+        font-size: 25px;
+    }
+    .footer{
+        font-size: 20px;
     }
 }
